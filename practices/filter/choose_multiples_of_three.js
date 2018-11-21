@@ -3,9 +3,11 @@
 function choose_multiples_of_three(collection) {
 
   //implement here
-  var result = new Array();
+  return collection.filter(element => element % 3 === 0);
 
   //implement here
+  var result = new Array();
+
   collection.forEach(element => {
     if (element % 3 === 0) {
       result.push(element);

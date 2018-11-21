@@ -2,7 +2,7 @@
 
 function choose_even(collection) {
   //implement here
-  // return collection.filter(element => element % 2 === 0);
+  return collection.filter(element => element % 2 === 0);
 
   // original code
   var result = new Array();
